@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <div class="form-row">
+            <label >
+                <span> Name: </span>
+                 <input type="text">
+            </label>
+           <div class="form-row">
+            <label for="pochta"> Email</label>
+            <input type="Email" id="pochta"  placeholder="Enter your email">
+            <span> Hobbys</span>
+            <br>
+            <div class="form-row">
+            
+                <input type="checkbox" id="engl">
+                <label for="eng">English</label>
+                <br>
+                 <input type="checkbox" id="gr">
+                <label for="gr">Doutsch</label>
+                <br>
+                 <input type="checkbox" id="ch">
+                <label for="ch">Chines</label>
+                <br>
+                <div class="forms-row">
+                    <span>Gender</span>
+                    <br>
+                    <input type="radio"  id="female" name="Gender">
+                    <label for="female">female</label>
+                    <br>
+                    <input type="radio" id="male" name="Gender">
+                    <label for="male">male</label>
+
+                </div>
+                
+            </div>
+
+
+           </div>
+        </div>
+    </form>
+    <div class="form-row">
+        <span>years of experiens </span>
+        <br>
+        <input type="nomber" required>
+    </div>
+     <div class="form-row">
+        <span>upload your cv </span>
+        <br>
+        <input type="file" required>
+    </div>
+     <div class="form-row">
+        <span>phone number </span>
+        <br>
+        <input type="telr" pattern="0+(0-9{3}-[0-9]{3})" placeholder="0700-700-700" required>
+        <div class="form-row">
+            <span>where do you live </span>
+            <select >
+                <option >   bishkek </option>
+                <option > osh </option>
+                <option > Batken</option>
+            </select>
+        </div>
+        <input type="submit" value="send">
+    </div>
+</body>
+</html>
